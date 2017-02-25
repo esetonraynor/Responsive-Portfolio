@@ -310,6 +310,469 @@ nav a {
 	width:100%;
 }
 
+}
+
+
+/*html {
+	position:relative;
+	min-height:100%;
+}
+
+body {
+	background:url(../images/symphony.png);
+	margin:0 0 85px 0;
+}
+
+#header {
+	height:100px;
+	width:100%;
+	max-width:1500px;
+	background-color:white;
+	border-bottom:2px solid #cccccc;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+}
+
+#myName {
+	color:#ffffff;
+	font-family:'Georgia', Times, 'Times New Roman';
+	background-color:#4aaaa5;
+	position:relative;
+	left:200px;
+	top:0px;
+	width:300px;
+	height:50px;
+	text-align:center;
+	padding:10px 10px 20px 10px;
+}
+
+.nav {
+	float:right;
+	padding:0px 0px 0px 0px;
+	font-family:'Arial', 'Helvetica Neue';
+	position:relative;
+	right:360px;
+	top:-70px;
+	list-style-type:inline-block;
+}
+
+.nav-portfolio {
+	float:right;
+	padding:0px 0px 0px 0px;
+	font-family:'Arial', 'Helvetica Neue';
+	position:relative;
+	right:343px;
+	top:-70px;
+	list-style-type:inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:#777777;
+}
+
+.main-content {
+	background-color:white;
+	border:1px solid #dddddd;
+	width:630px;
+	height:490px;
+	float:left;
+	position:absolute;
+	left:200px;
+	top:150px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.main-content-contact {
+	background-color:white;
+	border:1px solid #dddddd;
+	width:610px;
+	height:550px;
+	float:left;
+	position:absolute;
+	left:200px;
+	top:150px;
+	padding-left:30px;
+	padding-right:10px;
+}
+
+.clearfix {
+	overflow:auto;
+}
+
+.main-content-portfolio {
+	background-color:white;
+	border:1px solid #dddddd;
+	width:630px;
+	height:800px;
+	float:left;
+	position:absolute;
+	left:200px;
+	top:150px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.projects {
+	float:left;
+	height:170px;
+	width:220px;
+	padding:10px 30px 10px 30px;
+}
+
+#hangman {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	position:absolute;
+	left:40px;
+	top:230px;
+	width:200px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+	font-family:'Georgia', Times, 'Times New Roman';
+	font-size:20px;
+}
+#rpgGame {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	position:absolute;
+	left:320px;
+	top:230px;
+	width:200px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+	font-family:'Georgia', Times, 'Times New Roman';
+	font-size:20px;
+}
+
+#triviaGame {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	position:absolute;
+	left:40px;
+	top:420px;
+	width:200px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+	font-family:'Georgia', Times, 'Times New Roman';
+	font-size:20px;
+}
+
+#basketball {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	position:absolute;
+	left:40px;
+	top:580px;
+	width:200px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+	font-family:'Georgia', Times, 'Times New Roman';
+	font-size:20px;
+}
+
+#rockPaper {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	position:absolute;
+	left:320px;
+	top:420px;
+	width:200px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+	font-family:'Georgia', Times, 'Times New Roman';
+	font-size:20px;
+}
+
+#contactHeader {
+	color:#4aaaa5;
+	font-family:'Georgia', Times, 'Times New Roman';
+	padding-left:30px;
+}
+
+#aboutMe {
+	color:#4aaaa5;
+	font-family:'Georgia', Times, 'Times New Roman';
+	padding-left:30px;
+}
+
+#picture {
+	float:left;
+	padding:10px 10px 10px 10px;
+	height:200px;
+	width:150px;
+}
+
+#portfolioHeading {
+	color:#4aaaa5;
+	font-family:'Georgia', Times, 'Times New Roman';
+	padding-left:30px;
+}
+
+.bio {
+	font-family:'Arial', 'Helvetica Neue';
+	color:#777777;
+	padding-left:20px;
+	line-height:2;
+}
+
+.response {
+	font-family:'Arial', 'Helvetica Neue';
+	color:#777777;
+	clear:both;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+textarea {
+	width:550px;
+	height:16px;
+	font-family:'Arial', 'Helvetica Neue';
+	padding:5px;
+	margin:0px;
+}
+
+#messageBox {
+	width:550px;
+	height:150px;
+}
+
+#submit {
+	background-color:#4aaaa5;
+	color:#ffffff;
+	border:none;
+	font-size:16px;
+	margin:0px 0px 0px 0px
+	padding:20px 20px 20px 20px;
+	height:30px;
+	width:100px;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.connectBox1 {
+	float:right;
+	width:270px;
+	height:200px;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	margin:30px 30px 30px 30px;
+	position:absolute;
+	right:310px;
+	top:120px;
+}
+
+.connectBox2 {
+	float:right;
+	width:270px;
+	height:200px;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	margin:30px 30px 30px 30px;
+	position:absolute;
+	right:310px;
+	top:120px;
+}
+
+.connectBox3 {
+	float:right;
+	width:270px;
+	height:200px;
+	background-color:#ffffff;
+	border:1px solid #dddddd;
+	margin:30px 30px 30px 30px;
+	position:absolute;
+	right:293px;
+	top:120px;
+}
+
+#connectWithMe {
+	color:#4aaaa5;
+	text-align:center;
+	padding-bottom:0px;
+	font-family:'Georgia', Times, 'Times New Roman';
+}
+
+hr {
+	border:0 none;
+	background-color:lightgray;
+	height:3px;
+	width:80%;
+}
+
+#line1 {
+	border:0 none;
+	background-color:lightgray;
+	height:3px;
+	width:90%;
+}
+
+.icons {
+	height:60px;
+	width:60px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#site-footer {
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	height:85px;
+	padding-top:30px;
+	background-color:#666666;
+	text-align:center;
+	border-top:10px #4aaaa5 solid;
+	font-family:Arial, 'Helvetica Neue';
+	color:#D6D6D6;
+	width:100%;
+}
+
+@media only screen and (max-width:980px) {
+	#myName, .nav {
+		width:50%;
+		margin-left:50px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:640px) {
+	
+	#header {
+		height:130px;
+		width:100%;
+	}
+
+	#myName {
+		position:static;
+		font-weight:bold;
+		width:100%;
+		float:left;
+		font-size:40px;
+		margin-top:0;
+		margin-left:0;
+	}
+
+	.port {
+		float:left;
+		position:absolute;
+		top:90px;
+		left:450px;
+	}
+
+	.cont {
+		float:left;
+		position:absolute;
+		top:90px;
+		left:280px;
+	}
+
+	.about {
+		float:left;
+		position:absolute;
+		top:90px;
+		left:100px;	
+	}
+
+	.main-content {
+		position:static;
+		width:630px;
+		margin-top:150px;
+		height:1300px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.main-content-contact {
+		position:static;
+		width:630px;
+		margin-top:150px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	#picture {
+		width:600px;
+		height:auto;
+		margin:auto;
+	}
+
+	.connectBox1 {
+		width:630px;
+		float:left;
+		clear:both;
+		position:absolute;
+		top:1400px;
+		left:0;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.connectBox2 {
+		width:630px;
+		float:left;
+		clear:both;
+		position:absolute;
+		top:700px;
+		left:0;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.connectBox3 {
+		width:630px;
+		float:left;
+		clear:both;
+		position:absolute;
+		top:950px;
+		left:0;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+<TABLE BORDER="0" cellpadding="0" CELLSPACING="0">
+<TR>
+
+<TD WIDTH="221" HEIGHT="300" BACKGROUND="newjoe01.jpg" VALIGN="bottom">
+
+<FONT SIZE="+1" COLOR="yellow">Joe Burns at Work</FONT></TD>
+
+</TR>
+</TABLE>
+
+	.footer {
+		width:100%;
+		margin-top:1700px;
+	}
+
+	.projects {
+		width:100%;
+		height:auto;
+		margin-left:0;
+	}
+
+	.main-content-portfolio {
+		position:static;
+		width:630px;
+		margin-top:150px;
+	}
+
+	#hangman {
+		width:630px;
+		text-align:center;
+		position:absolute;
+		top:670px;
+
+	}
+}
 
 
 
